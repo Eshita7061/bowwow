@@ -1,46 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bowwow - Dog Care Services</title>
+    <title>Bowwow - Petcare and Grooming</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+
     <!-- Header Section -->
-    <header class="header-section">
-        <div class="logo">
-            <h1>Bowwow</h1>
+    <header>
+        <div class="container">
+            <img src="https://i.ibb.co/N6Lwh9N/A-Logo-i-created-for-a-pet-store-in-USA-Bow-Wow-logo-logotype.jpg" alt="Bowwow Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products & Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h2>Your One-Stop Solution for Dog Care</h2>
-            <p>From grooming to training, we've got it all covered.</p>
-            <a href="#services" class="cta-button">Explore Services</a>
-        </div>
-    </section>
+    <!-- Main Content Section -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <h1>Welcome to Bowwow</h1>
+                <p>At Bowwow, we believe that pets are family. Our passion is to provide the best care, grooming, and products to ensure your pet's happiness and health. From nutritious food to fun toys and essential medical care, we have everything your pet needs to thrive.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://i.ibb.co/j5QJd2m/dogo.jpg" alt="Happy Dog">
+            </div>
+        </section>
 
-    <!-- Video Section -->
-    <section class="video-section">
-        <h2>Our Services Overview</h2>
-        <iframe src="https://www.youtube.com/embed/MrDjdwtQSuU" title="YouTube video" allowfullscreen></iframe>
-    </section>
+        <!-- Products and Services Section -->
+        <section id="products" class="products">
+            <h2>Our Products & Services</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <i class="fas fa-bone"></i>
+                    <h3>Pet Toys</h3>
+                    <p>Explore our range of fun and safe toys designed to keep your pets entertained and active.</p>
+                </div>
+                <div class="product-item">
+                    <i class="fas fa-paw"></i>
+                    <h3>Pet Food</h3>
+                    <p>High-quality, nutritious food tailored to meet the dietary needs of your furry friends.</p>
+                </div>
+                <div class="product-item">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Medical Care</h3>
+                    <p>We offer essential medical products to keep your pets healthy and happy.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <h2>Our Services</h2>
-        <div class="service-container">
+        <!-- Video Section -->
+        <section class="video-section">
+            <iframe src="https://www.youtube.com/embed/MrDjdwtQSuU" title="YouTube video" allowfullscreen></iframe>
+        </section>
+
+
+
+        <!-- Image Section -->
+        <section class="image-section">
             <!-- Dog Grooming -->
             <div class="image-container">
                 <img src="https://img.freepik.com/free-vector/pet-grooming-concept-illustration_114360-19918.jpg?semt=ais_hybrid" alt="Dog Grooming">
@@ -55,33 +83,64 @@
 
             <!-- Dog Food, Toys -->
             <div class="image-container">
-                <img src="https://i.ibb.co/nLtVbSc/dog-food-toy.jpg" alt="Dog Food & Toys">
+                <img src="https://i.ibb.co/nLtVbSc/dog-food-toy.jpg" alt="Dog Food, Toys">
                 <div class="overlay">Dog Food & Toys</div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <h2>About Us</h2>
-        <p>Bowwow is dedicated to providing the best care for your furry friends. Our expert team ensures that your dog receives top-notch grooming, training, and care.</p>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-        <p>Have any questions? Feel free to reach out to us!</p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+<!-- Our Clients Section -->
+<section class="clients">
+    <h2>Our Clients</h2>
+    <div class="client-logos">
+        <i class="fas fa-cut fa-3x"></i>
+        <i class="fas fa-dog fa-3x"></i>
+        <i class="fas fa-paw fa-3x"></i>
+        <i class="fas fa-store fa-3x"></i>
+        <i class="fas fa-bone fa-3x"></i>
+    </div>
+</section>
+
+<!-- Add this within your HTML where the contact form section should appear -->
+<section class="contact-section">
+  <div class="contact-container">
+    <div class="contact-form">
+      <h2>Let's talk, bowwow!</h2>
+      <form class="vertical-form" action="https://submit-form.com/ aN8jUI37X">
+        <label for="first-name">First name</label>
+        <input id="first-name" name="first-name" type="text" placeholder="First name" />
+        
+        <label for="last-name">Last name</label>
+        <input id="last-name" name="last-name" type="text" placeholder="Last name" />
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message" cols="15" rows="5"></textarea>
+        
+        <button type="submit">Contact us <i class="fas fa-paw"></i></button>
+      </form>
+    </div>
+    <div class="contact-image">
+      <img src="https://i.ibb.co/DtTXKp4/cutu.jpg" alt="Cute Dog" />
+    </div>
+  </div>
+  <footer class="footer">
+    <p>&copy; PETWORLD 2022 &nbsp; | &nbsp; <a href="#">Privacy policy</a> &nbsp; | &nbsp; <a href="#">Terms of use</a></p>
+  </footer>
+</section>
+
 
     <!-- Footer Section -->
-    <footer class="footer-section">
-        <p>&copy; 2024 Bowwow. All Rights Reserved.</p>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bowwow. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
